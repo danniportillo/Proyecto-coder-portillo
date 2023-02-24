@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+header {
+  background-color: #e6c6b1;
+  padding: 0.5rem 0;
+}
+
+body {
+  background-color: #e6e2d7;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  background-color: #e6c6b1;
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0px;
+  margin-left: 250px;
+  height: 60px;
+}
+.data {
+  margin-left: 50px;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.menu li {
+  display: inline-block;
+  text-align: right;
+}
+.menu li a:hover {
+  background: #ef8354;
+}
+.img-0 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding: 8px;
+  margin: -10px;
+  justify-content: initial;
+  margin-left: 10px;
+  display: grid;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  margin-left: 1.5rem;
+  padding: 25px;
+  float: left;
+}
+.section-1 {
+  margin-left: 1100px;
+}
+.containers_1 {
+  width: 800px;
+  height: 100px;
+  background: #e6e2d7;
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+}
+form {
+  background: #fff;
+  width: 500px;
+  height: 55px;
+  display: flex;
+}
+form input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+form button {
+  background: tomato;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+iframe {
+  width: 1250px;
+  height: 100px;
+  position: absolute;
+  padding: 0;
+}
+
+.img4 {
+  width: 500px;
+  height: 500px;
+  margin-left: 400px;
+}
+.prod {
+  margin-left: 1px;
+  font-size: 20px;
+  color: #ef8354;
+  margin-top: 8rem;
+  justify-content: center;
+}
+.productos {
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}
+.contacto {
+  margin-left: 800px;
+  margin: 1px;
+}
+.quienes-somos {
+  height: 300px;
+  width: 500px;
+  justify-content: center;
+  margin-left: 400px;
+  background-color: #e6c6b1;
+  margin-bottom: 20px;
+  color: #fff;
+}
+h2 {
+  margin-left: 400px;
+  color: white;
+}
+h1 {
+  margin-left: 400px;
+  border: 0;
+  color: white;
+  margin-top: 3rem;
+}
+h3 {
+  color: white;
+  background-color: #e6c6b1;
+}
